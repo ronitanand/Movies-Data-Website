@@ -1,0 +1,28 @@
+#movielist img{
+    width: 100%;
+    height: 390px;
+
+}
+
+#movielist .col-sm-6{
+    margin-top: 50px;
+}
+body{
+    background-color: black;
+}
+
+.col-6 img{
+    width: 100%;
+    height: 400px;
+}
+.col-12  img{
+    width: 100%;
+    height: 450px;
+
+}
+@media screen-size and (max-width:400px){
+    .col-12 img{
+        width: 200px;
+        height: 400px;}
+
+}
