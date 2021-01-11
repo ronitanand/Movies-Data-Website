@@ -99,7 +99,7 @@ let req=new XMLHttpRequest;
     if(newdata.Search[check].Poster==location){var g=check;}
 }
 let reqq=new XMLHttpRequest;
-reqq.open("GET","http://www.omdbapi.com/?t="+newdata.Search[g].Title+"&apikey=1b2f34d9");
+reqq.open("GET","https://www.omdbapi.com/?t="+newdata.Search[g].Title+"&apikey=1b2f34d9");
 reqq.send();
 reqq.onload=function(){
     const newwdata=JSON.parse(this.response);
